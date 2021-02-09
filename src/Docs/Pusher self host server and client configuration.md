@@ -175,7 +175,7 @@
 1. Ii am assuming you have a fresh laravel in you client site you need to instal this package
 
 2. ```bash
-   My pacakge name still nedd to create the package
+   composer require mariojgt/connect
    ```
 
 3. I know laravel have a default websocket build in solution but this package use the official pusher php sdk so we can easily hookup with your hoster pusher server
@@ -328,7 +328,7 @@
         });
     ```
 
-16. Example to to trigger a event using the package name helper class
+16. Example to to trigger a event using the mariojgt/connect helper class
 
 17. ```php
     // in you controller you can send the event to you pusher serve doing this
